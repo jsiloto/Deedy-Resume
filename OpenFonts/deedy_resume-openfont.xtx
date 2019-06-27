@@ -66,7 +66,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \namesection{Juliano Siloto Assine}{}{ \urlstyle{same} 
-\href{mailto:jsiloto@cpqd.com.br}{jsiloto@cpqd.com.br} | (19) 99768-5587 | \href{mailto:julianosiloto@gmail.com}{julianosiloto@gmail.com}
+\href{mailto:jsiloto@cpqd.com.br}{jsiloto@cpqd.com.br} | +55 (19) 99768-5587 | \href{mailto:julianosiloto@gmail.com}{julianosiloto@gmail.com}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -84,6 +84,11 @@
 \section{Education} 
 
 \subsection{UNICAMP}
+\descript{MsC in Machine Learning}
+\location{Dec 2020 (Expected) | Campinas, SP}
+\sectionsep
+
+\subsection{UNICAMP}
 \descript{BsC in Computer Engineering}
 \location{Jan 2016 | Campinas, SP}
 \sectionsep
@@ -98,7 +103,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Github:// \href{https://github.com/jsiloto}{\bf jsiloto} \\
+\href{https://github.com/jsiloto}{\textbf{github}.com/jsiloto} \\
+\href{https://stackoverflow.com/users/4121305/juliano-s-assine}
+{\textbf{stackoverflow}.com/juliano-s-assine} \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -116,8 +123,7 @@ Smart Cities (audit) \\
 \subsection{Undergraduate}
 Digital Signal Processing \\
 Artificial Intelligence \\
-Operating Systems \\
-Microcontroller Programming \\
+Systems Control Theory \\
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -127,9 +133,9 @@ Microcontroller Programming \\
 \section{Skills}
 \subsection{Programming}
 \location{Experienced}
-C/C++ \textbullet{} Python \textbullet{} Matlab \\
+C/C++ \textbullet{} Python \textbullet{} Bash \\
 \location{Familiar:}
-Java \textbullet{} JavaScript  \textbullet{} Shell \textbullet{} \LaTeX\ 
+Matlab \textbullet{} Java \textbullet{} JavaScript  \textbullet{} \LaTeX\ 
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -148,17 +154,32 @@ Java \textbullet{} JavaScript  \textbullet{} Shell \textbullet{} \LaTeX\
 
 \section{Experience \& Relevant Projects}
 \runsubsection{CPqD}
-\descript{| Junior Researcher \& Firmware Developer}
+\descript{| R\&D Engineer }
 \location{Jan 2016 - Present | Campinas, SP}
+
+\textbf{AI+IoT Sistemic Solutions Group (2017-present)}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-	\item Research on power-efficient Deep Learning techniques for mobile environments
-	\item Firmware/Middleware development for IoT solutions
-	\item Firmware development and implementation of real-time digital control for external cavity laser on $\mu$ITLA applications.
-	\item R\&D on optimization heuristics for optical networking SDN applications \cite{assine2016sdn, cognitive_cpqd}
-	\item Repository Maintenance
-	
-	
+	\item Optimization of Neural Networks using Tensorflow and Keras (Pruning, Quantization etc)
+	\item Integration of GPU server on the cloud with local devices using REST APIs
+    \item Contributions to Dojot open source IoT platform  
+	\item Implementation of Middleware stack and Remote Firmware Update
+	\item Embedded development on Linux, Tizen and ZephyrOS 
+\end{tightemize}
+
+\textbf{BrPhotonics External Cavity Laser (2017)}
+\begin{tightemize}
+	\item Leader of a 3-person Firmware Team
+	\item Responsible for integration of Hardware design and Optics teams
+	\item Implementation of closed-loop real-time control logic responsible for tuning and long-term stability
+    \item Implementation of communication stack for researchers in Matlab
+\end{tightemize}
+
+\textbf{Optical Networks Research Group (2016)}
+\begin{tightemize}
+    \item R\&D on high-level simulation and optimization heuristics for optical networking \cite{assine2016sdn, assine2017cognitive_cpqd}
+    \item Implementation of SDN software stack \cite{garrich2016pioneering}
+    \item Repository Maintenance
 \end{tightemize}
 \sectionsep
 
@@ -223,6 +244,12 @@ Student Union & Administrative / Social   Director &2009 – 2011 \\
 Bateria Valorosa &Tamborim Player  & 2009 – 2012 \\
 \end{tabular}
 
+
+
+\end{minipage} 
+
+\newpage
+
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -237,5 +264,5 @@ Bateria Valorosa &Tamborim Player  & 2009 – 2012 \\
 \bibliography{publications}
 \nocite{*}
 
-\end{minipage} 
+
 \end{document}  \documentclass[]{article}
